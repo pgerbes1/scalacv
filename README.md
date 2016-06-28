@@ -1,8 +1,8 @@
-# scalacv
+# Scalacv
 
 <p>A eclectic mix of code implementing topics in computer vision, graph theory and distributed computing.</p>
 
-<p>The name stands for Scala Computer Vision as an homage to both OpenCV and javacv both of which are used heavily via the javacpp library.</p> 
+<p>The name stands for Scala Computer Vision as an homage to both OpenCV and JavaCV both of which are used heavily via the javacpp library.</p> 
 
 <p>Currently there are 4 main example programs you can run:</p>
 
