@@ -6,17 +6,19 @@
 
 <p>Currently there are 4 main example programs you can run:</p>
 
-``` [1] PoseEstimationPipeLine
-    [2] SceneGraphCreation
-    [3] SparkFeatureMatch
-    [4] VideoToPhotos
-```
+<b>1)</b> PoseEstimationPipeLine
 
-<p> The pose estimation, video processing and graph construction examples are run from the command line via **sbt run**.</p>
+<b>2)</b> SceneGraphCreation
+
+<b>3)</b> SparkFeatureMatch
+
+<b>4)</b> VideoToPhotos
+
+<p> The pose estimation, video processing and graph construction examples are run from the command line via <b>sbt run</b>.</p>
 
 <p> The Spark option is not as it assumes you know how to package up a jar and submit the job to a cluster.</p>
 
-<p>Finally, ***much*** credit and thanks goes to the following repos for their code and excellent examples.</p>  
+<p>Finally, <b><em>much</em></b> credit and thanks goes to the following repos for their code and excellent examples.</p>  
 
 https://github.com/bytedeco/javacv-examples
 
