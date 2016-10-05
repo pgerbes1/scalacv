@@ -29,7 +29,7 @@ object SceneGraphCreation {
 			matchGraphData
 		}
 		val sceneGraph = WeightedGraph(graphData.flatten.toVector)
-	  val minSpanTree = KruskalMST(sceneGraph)
+		val minSpanTree = KruskalMST(sceneGraph)
 		val wr = new FileWriter( new File("graph_data_output.dot"))
 		wr.write(sceneGraph.toString)
 		wr.close()

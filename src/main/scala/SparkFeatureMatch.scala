@@ -23,5 +23,5 @@ object SparkFeatureMatch {
 		val photoDirectory = spark.textFile("/Users/patrickgerbes/scalcv/photos", 4)
 		val features = photoDirectory.map(x => calcKeyPointsAndDescriptors(imread(x), alg))
 		features.saveAsTextFile("/Users/patrickgerbes/sparkImageTest.txt")
-	 }
- }
+	}
+}
